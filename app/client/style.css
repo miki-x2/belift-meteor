@@ -1,28 +1,64 @@
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* Set up some CSS variables to theme the application. */
-:root {
-  --matr-navbar-bg: #ECECEC;
-  --matr-navbar-bg-rgb: 236, 236, 236;
+.social-media li a{
+  background: url("https://beliftlab.com/static/images/common/ico_sns2.png") no-repeat 0 0;
+  width: 25px;
+  height: 25px;
+  text-indent: 25px;
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
 }
 
-/* Change bootstrap variable values.
- See https://getbootstrap.com/docs/5.2/customize/css-variables/
- */
-body {
-  --bs-light-rgb: var(--matr-navbar-bg-rgb);
+.social-media .facebook{
+  background-position-y: 0px;
 }
 
-/* Set the alert background on the signin and signup pages. */
-#signin-page .alert-light, #signup-page .alert-light {
-  --bs-alert-bg: var(--matr-navbar-bg);
+.social-media .twitter{
+  background-position-y: -25px;
 }
 
-/* Define custom styles */
-.gray-background {
-  background-color: var(--matr-navbar-bg);
-  color: var(--bs-dark);
-  padding-top: 10px;
-  padding-bottom: 20px;
+.social-media .naver{
+  background-position-y: -50px;
+}
+
+.social-media li {
+  display: inline;
+  float: right;
+  padding-right: 15px;
+}
+
+a.navbar-brand{
+  font-family: Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+div.nav-item{
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-link{
+  font-family: Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+div.dropdown-toggle{
+  color:gray;
+  font-weight: lighter;
+}
+
+p{
+  color:gray;
+  font-family: Tahoma;
+}
+
+p.company{
+  font-weight: bold;
+}
+
+li {
+  color: gray;
+  font-weight: lighter;
 }
